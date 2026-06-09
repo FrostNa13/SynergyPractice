@@ -1,0 +1,48 @@
+Jun  7 06:24:38 carrental-srv sshd[786]: Server listening on 0.0.0.0 port 22.
+Jun  7 06:24:38 carrental-srv sshd[786]: Server listening on :: port 22.
+Jun  7 06:25:01 carrental-srv CRON[879]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun  7 06:25:01 carrental-srv CRON[878]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun  7 06:25:01 carrental-srv CRON[879]: pam_unix(cron:session): session closed for user root
+Jun  7 06:25:01 carrental-srv CRON[878]: pam_unix(cron:session): session closed for user root
+Jun  7 06:25:03 carrental-srv sshd[876]: Accepted password for mvs from 192.168.88.10 port 41331 ssh2
+Jun  7 06:25:03 carrental-srv sshd[876]: pam_unix(sshd:session): session opened for user mvs(uid=1000) by (uid=0)
+Jun  7 06:25:03 carrental-srv systemd-logind[738]: New session 3 of user mvs.
+Jun  7 06:25:03 carrental-srv systemd: pam_unix(systemd-user:session): session opened for user mvs(uid=1000) by (uid=0)
+Jun  7 06:25:09 carrental-srv sudo:      mvs : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/bash
+Jun  7 06:25:09 carrental-srv sudo: pam_unix(sudo-i:session): session opened for user root(uid=0) by mvs(uid=1000)
+Jun  7 06:35:01 carrental-srv CRON[1072]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun  7 06:35:01 carrental-srv CRON[1072]: pam_unix(cron:session): session closed for user root
+Jun  7 06:45:01 carrental-srv CRON[1110]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun  7 06:45:01 carrental-srv CRON[1110]: pam_unix(cron:session): session closed for user root
+Jun  7 06:47:01 carrental-srv CRON[1120]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun  7 06:47:01 carrental-srv CRON[1120]: pam_unix(cron:session): session closed for user root
+Jun  7 06:55:01 carrental-srv CRON[1151]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun  7 06:55:01 carrental-srv CRON[1151]: pam_unix(cron:session): session closed for user root
+Jun  7 07:05:01 carrental-srv CRON[1267]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun  7 07:05:01 carrental-srv CRON[1267]: pam_unix(cron:session): session closed for user root
+Jun  7 07:15:01 carrental-srv CRON[1304]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun  7 07:15:01 carrental-srv CRON[1304]: pam_unix(cron:session): session closed for user root
+Jun  7 07:17:01 carrental-srv CRON[1314]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun  7 07:17:01 carrental-srv CRON[1314]: pam_unix(cron:session): session closed for user root
+Jun  7 07:25:01 carrental-srv CRON[1346]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun  7 07:25:01 carrental-srv CRON[1346]: pam_unix(cron:session): session closed for user root
+Jun  7 07:31:44 carrental-srv sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/bin/bash --login -c 'postgres psql'
+Jun  7 07:31:44 carrental-srv sudo: pam_unix(sudo-i:session): session opened for user root(uid=0) by mvs(uid=0)
+Jun  7 07:31:44 carrental-srv sudo: pam_unix(sudo-i:session): session closed for user root
+Jun  7 07:31:52 carrental-srv sudo:     root : TTY=pts/1 ; PWD=/root ; USER=postgres ; COMMAND=/usr/bin/psql
+Jun  7 07:31:52 carrental-srv sudo: pam_unix(sudo:session): session opened for user postgres(uid=114) by mvs(uid=0)
+Jun  7 07:35:01 carrental-srv CRON[1403]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun  7 07:35:01 carrental-srv CRON[1403]: pam_unix(cron:session): session closed for user root
+Jun  7 07:45:01 carrental-srv CRON[1439]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun  7 07:45:01 carrental-srv CRON[1439]: pam_unix(cron:session): session closed for user root
+Jun  7 07:48:24 carrental-srv sudo: pam_unix(sudo:session): session closed for user postgres
+Jun  7 07:55:01 carrental-srv CRON[1723]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun  7 07:55:01 carrental-srv CRON[1723]: pam_unix(cron:session): session closed for user root
+Jun  7 07:58:27 carrental-srv sudo:     root : TTY=pts/1 ; PWD=/root ; USER=postgres ; COMMAND=/usr/bin/pg_dump corpdata_20
+Jun  7 07:58:27 carrental-srv sudo: pam_unix(sudo:session): session opened for user postgres(uid=114) by mvs(uid=0)
+Jun  7 07:58:27 carrental-srv sudo: pam_unix(sudo:session): session closed for user postgres
+Jun  7 07:59:39 carrental-srv sudo: pam_unix(sudo-i:session): session closed for user root
+Jun  7 08:01:52 carrental-srv sudo:      mvs : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/bash
+Jun  7 08:01:52 carrental-srv sudo: pam_unix(sudo-i:session): session opened for user root(uid=0) by mvs(uid=1000)
+Jun  7 08:05:01 carrental-srv CRON[1866]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun  7 08:05:01 carrental-srv CRON[1866]: pam_unix(cron:session): session closed for user root
